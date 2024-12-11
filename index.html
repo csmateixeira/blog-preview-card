@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- displays site properly based on user's device -->
 
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="./css/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,40 +15,36 @@
     <title>Frontend Mentor | Blog preview card</title>
 </head>
 <body>
+    <!-- Background Container -->
+    <main class="main-container">
+        <!-- Inner Container -->
+        <article class="article-container">
+            <figure>
+                <img src="./assets/images/illustration-article.svg" alt="article-image" class="rounded-xl">
+            </figure>
 
-<!-- Background Container -->
-<main class="main-container">
-    <!-- Inner Container -->
-    <article class="article-container">
-        <figure>
-            <img src="assets/images/illustration-article.svg" alt="article-image" class="rounded-xl">
-        </figure>
+            <!-- Text Container -->
+            <section class="text-container">
+                <div class="tag-text-container">
+                    <p class="tag-text">Learning</p>
+                </div>
+                <p class="date-text">Published 21 Dec 2023</p>
+                <h1 class="title-text">HTML & CSS foundations</h1>
+                <p class="description-text">These languages are the backbone of every website, defining structure, content,
+                    and presentation.</p>
 
-        <!-- Text Container -->
-        <div class="text-container">
-            <div class="tag-text-container">
-                <p class="tag-text">Learning</p>
-            </div>
-            <p class="date-text">Published 21 Dec 2023</p>
-            <p class="title-text">HTML & CSS foundations</p>
-            <p class="description-text">These languages are the backbone of every website, defining structure, content, and presentation.</p>
-        </div>
+            </section>
 
-        <!-- Author Container -->
-        <div class="flex flex-row space-x-3">
-
-        </div>
-    </article>
-</main>
-
-<!--  Learning-->
-
-<!--  -->
-
-<!--  -->
-
-<!--  -->
-
-<!--  Greg Hooper-->
+            <!-- Author Container -->
+            <section class="author-container">
+                <figure>
+                    <img src="./assets/images/image-avatar.webp" alt="avatar" class="w-8 h-8">
+                </figure>
+                <p class="flex items-center h-8 font-extrabold text-sm">
+                    Greg Hooper
+                </p>
+            </section>
+        </article>
+    </main>
 </body>
 </html>

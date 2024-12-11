@@ -563,18 +563,29 @@ html {
   display: flex;
 }
 
-.flex-row {
-  flex-direction: row;
+.h-8 {
+  height: 2rem;
 }
 
-.space-x-3 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(0.75rem * var(--tw-space-x-reverse));
-  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+.w-8 {
+  width: 2rem;
+}
+
+.items-center {
+  align-items: center;
 }
 
 .rounded-xl {
   border-radius: 0.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.font-extrabold {
+  font-weight: 800;
 }
 
 .main-container {
@@ -670,4 +681,16 @@ html {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity, 1));
   font-size: clamp(10px, 3.7vw, 16px);
+}
+
+.author-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.author-container > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.75rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
 }

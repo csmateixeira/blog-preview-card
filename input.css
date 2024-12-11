@@ -44,3 +44,7 @@
     @apply font-medium text-gray-500;
     font-size: clamp(10px, 3.7vw, 16px);
 }
+
+.author-container {
+    @apply flex flex-row space-x-3 items-start;
+}
