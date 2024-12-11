@@ -682,6 +682,15 @@ html {
   font-weight: 800;
   --tw-text-opacity: 1;
   color: rgb(17 17 17 / var(--tw-text-opacity, 1));
+}
+
+.title-text:hover {
+  cursor: pointer;
+  --tw-text-opacity: 1;
+  color: rgb(244 208 78 / var(--tw-text-opacity, 1));
+}
+
+.title-text {
   font-size: clamp(10px, 5.3vw, 24px);
 }
 

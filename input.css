@@ -42,7 +42,7 @@
 }
 
 .title-text {
-    @apply font-extrabold text-gray-950;
+    @apply font-extrabold text-gray-950 hover:text-yellow hover:cursor-pointer;
     font-size: clamp(10px, 5.3vw, 24px);
 }
 
