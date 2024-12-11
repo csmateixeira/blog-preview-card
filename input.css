@@ -54,3 +54,7 @@
 .author-container {
     @apply flex flex-row space-x-3 items-start;
 }
+
+.author-text {
+    @apply flex items-center h-8 font-extrabold text-sm;
+}
