@@ -1,3 +1,7 @@
+.idea
+/design/
+/README-old.md
+
 # Logs
 logs
 *.log
