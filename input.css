@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: "Figtree";
+    src: url("./assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+    font-weight: 500 800;
+}
+
 @layer base {
     html {
         font-family: "Figtree", sans-serif;
@@ -10,11 +16,11 @@
 }
 
 .main-container {
-    @apply flex items-center justify-center bg-yellow-300 h-screen;
+    @apply flex items-center justify-center bg-yellow h-screen;
 }
 
 .article-container {
-    @apply flex flex-col items-start bg-white  drop-shadow border rounded-3xl border-gray-950 space-y-6 p-6 w-[87vw] max-w-[387px];
+    @apply flex flex-col items-start bg-white border shadow-thick rounded-3xl border-gray-950 space-y-6 p-6 w-[87vw] max-w-[387px];
 }
 
 .text-container {
@@ -26,7 +32,7 @@
 }
 
 .tag-text {
-    @apply px-3 py-1 bg-yellow-300 rounded-e rounded-s font-extrabold text-gray-950;
+    @apply px-3 py-1 bg-yellow rounded-e rounded-s font-extrabold text-gray-950;
     font-size: clamp(10px, 3.2vw, 14px);
 }
 
