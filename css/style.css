@@ -627,8 +627,8 @@ html {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
   padding: 1.5rem;
-  --tw-shadow: 10px 10px 0px black;
-  --tw-shadow-colored: 10px 10px 0px var(--tw-shadow-color);
+  --tw-shadow: 7px 7px 0px black;
+  --tw-shadow-colored: 7px 7px 0px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 

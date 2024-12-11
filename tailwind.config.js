@@ -9,7 +9,7 @@ module.exports = {
         'gray-500': '#6B6B6B'
       },
       boxShadow: {
-        thick: "10px 10px 0px black",
+        thick: "7px 7px 0px black",
       },
     }
   },
